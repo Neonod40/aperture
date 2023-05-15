@@ -122,15 +122,7 @@ main .main_item1 img {
     margin-right: 6px;
 }
 
-main .main_item1 p {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #FFFFFF;
-    margin-right: 16px;
-}
+
 
 .need_help {
     background-color: #000000;
