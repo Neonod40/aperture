@@ -112,7 +112,7 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
-/*.main_item1 {
+.main_item1 {
     display: flex;
     align-content: flex-end;
     box-sizing: border-box;
@@ -130,7 +130,7 @@ main .main_item1 p {
     line-height: 12px;
     color: #FFFFFF;
     margin-right: 16px;
-}*/
+}
 
 .need_help {
     background-color: #000000;
