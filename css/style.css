@@ -65,7 +65,7 @@ header nav ul li:last-of-type a {
 
 .main_banner {
     height: calc(100vh - 82px);
-    background-image: url(../images/image.jpg);
+    background-image: url("../images/image.jpg");
     background-size: cover;
     align-items: flex-end;
     padding-bottom: 61px;
@@ -124,7 +124,7 @@ main .main_item1 p {
 }*/
 
 .portfolio1 {
-    background-image: url(../images/image1.jpg);
+    background-image: url("../images/image1.jpg");
     background-size: cover;
     min-height: 600px;
     display: flex;
@@ -139,7 +139,7 @@ main .main_item1 p {
 }
 
 .portfolio2 {
-    background-image: url(../images/image2.jpg);
+    background-image: url("../images/image2.jpg");
     background-size: cover;
     min-height: 600px;
     display: flex;
@@ -153,7 +153,7 @@ main .main_item1 p {
 }
 
 .portfolio3 {
-    background-image: url(../images/image3.jpg);
+    background-image: url("../images/image3.jpg");
     background-size: cover;
     min-height: 600px;
     display: flex;
