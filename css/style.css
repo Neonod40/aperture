@@ -41,11 +41,9 @@ header nav ul li:first-of-type {
 }
 
 header nav ul li a {
-    font-family: 'Poppins';
+    font: 15px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -55,12 +53,9 @@ header nav ul li:first-of-type a {
 }
 
 header nav ul li:last-of-type a {
-    font-family: 'Poppins';
+    font: 16px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
     color: #000000;
     background: #FFFFFF;
     border-radius: 14px;
@@ -70,7 +65,7 @@ header nav ul li:last-of-type a {
 
 .main_banner {
     height: calc(100vh - 82px);
-    background-image: url(../images/IMAGE1.jpg);
+    background-image: url(../images/IMAGE.jpg);
     background-size: cover;
     align-items: flex-end;
     /*padding-bottom: 71px;*/
@@ -83,32 +78,26 @@ header nav ul li:last-of-type a {
 }
 
 .main_banner h3 {
-    font-family: 'Poppins';
+    font: 14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
 }
 
 .main_banner h1 {
-    font-family: 'Poppins';
+    font: 54px/59px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 54px;
-    line-height: 59px;
     color: #FFFFFF;
     margin-bottom: 18px;
 }
 
 .main_banner .container p {
-    font-family: 'Poppins';
+    font: 14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     color: #C0C0C0;
 }
 
@@ -132,6 +121,66 @@ main .main_item1 p {
     margin-right: 16px;
 }*/
 
+.portfolio1 {
+    background-image: url("../images/image1.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    align-items: center;
+}
+
+.portfolio1 .container {
+    max-width: 298px;
+
+}
+
+.portfolio2 {
+    background-image: url("../images/image2.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    align-items: center;
+}
+
+.portfolio2 .container {
+    max-width: 298px;
+}
+
+.portfolio3 {
+    background-image: url("../images/image3.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    align-items: center;
+}
+
+.portfolio3 .container {
+    max-width: 298px;
+}
+
+.portfolio_1 {
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.portfolio_2 {
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+}
+
+/*- - - - - - - - - - - -*/
 .need_help {
     background-color: #000000;
     padding-top: 110px;
@@ -146,22 +195,18 @@ main .main_item1 p {
 
 .need_help h2 {
     display: inline-flex;
-    font-family: 'Poppins';
+    font: 40px/42px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 42px;
     color: #FFFFFF;
     margin-bottom: 15px;
     max-width: 571px;
 }
 
 .need_help h3 {
-    font-family: 'Poppins';
+    font: 24px/30px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
     color: #C0C0C0;
     margin-bottom: 22px;
 }
@@ -170,12 +215,9 @@ main .main_item1 p {
     background: #FFFFFF;
     border-radius: 14px;
     display: inline-flex;
-    font-family: 'Poppins';
+    font: 16px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
     color: #000000;
     padding-right: 10px;
     align-items: center;
