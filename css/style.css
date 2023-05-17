@@ -65,16 +65,17 @@ header nav ul li:last-of-type a {
 
 .main_banner {
     height: calc(100vh - 82px);
-    background-image: url(../images/IMAGE.jpg);
+    background-image: url(../images/image.jpg);
     background-size: cover;
     align-items: flex-end;
-    /*padding-bottom: 71px;*/
+    padding-bottom: 61px;
     box-sizing: border-box;
 }
 
 .main_banner .container {
     max-width: 600px;
     text-align: center;
+    margin-bottom: 4px;
 }
 
 .main_banner h3 {
@@ -101,6 +102,7 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
+
 /*.main_item1 {
     display: flex;
     align-content: flex-end;
@@ -122,7 +124,7 @@ main .main_item1 p {
 }*/
 
 .portfolio1 {
-    background-image: url("../images/image1.jpg");
+    background-image: url(../images/image1.jpg);
     background-size: cover;
     min-height: 600px;
     display: flex;
@@ -137,7 +139,7 @@ main .main_item1 p {
 }
 
 .portfolio2 {
-    background-image: url("../images/image2.jpg");
+    background-image: url(../images/image2.jpg);
     background-size: cover;
     min-height: 600px;
     display: flex;
@@ -151,7 +153,7 @@ main .main_item1 p {
 }
 
 .portfolio3 {
-    background-image: url("../images/image3.jpg");
+    background-image: url(../images/image3.jpg);
     background-size: cover;
     min-height: 600px;
     display: flex;
