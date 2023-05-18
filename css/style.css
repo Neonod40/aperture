@@ -62,23 +62,28 @@ header nav ul li:last-of-type a {
     padding: 11px 20px;
 }
 
+    /*- - - - - - - - - - - - - - - - */
 
 .main_banner {
     height: calc(100vh - 82px);
     background-image: url("../images/image.jpg");
     background-size: cover;
-    align-items: flex-end;
-    padding-bottom: 61px;
+    align-items:center;
+    padding-bottom: 41px;
     box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 1440px;
 }
 
 .main_banner .container {
     max-width: 600px;
     text-align: center;
     margin-bottom: 4px;
+    align-items: flex-end;
 }
 
-.main_banner h3 {
+.main_banner .container h3 {
     font: 14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -87,7 +92,7 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
-.main_banner h1 {
+.main_banner .container h1 {
     font: 54px/59px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -103,17 +108,19 @@ header nav ul li:last-of-type a {
 }
 
 
-/*.main_item1 {
+.main_banner .main_item1 {
+    width: 100vw;
     display: flex;
-    align-content: flex-end;
+    justify-content: right;
     box-sizing: border-box;
+    margin-right: 40px;
 }
 
-main .main_item1 img {
+.main_banner .main_item1 img {
     margin-right: 6px;
 }
 
-main .main_item1 p {
+.main_banner .main_item1 p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -121,21 +128,45 @@ main .main_item1 p {
     line-height: 12px;
     color: #FFFFFF;
     margin-right: 16px;
-}*/
+}
 
 .portfolio1 {
     background-image: url("../images/image1.jpg");
     background-size: cover;
     min-height: 600px;
+    padding-bottom: 41px;
     display: flex;
-    justify-content: flex-end;
-    padding-right: 60px;
-    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .portfolio1 .container {
     max-width: 298px;
+    margin-right: 15px;
+}
 
+.portfolio1 .main_item1 {
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    box-sizing: border-box;
+    margin-right: 40px;
+}
+
+.portfolio1 .main_item1 img {
+    margin-right: 6px;
+}
+
+.portfolio1 .main_item1 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-right: 16px;
 }
 
 .portfolio2 {
