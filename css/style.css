@@ -69,7 +69,7 @@ header nav ul li:last-of-type a {
     background-image: url("../images/image.jpg");
     background-size: cover;
     align-items:center;
-    padding-bottom: 61px;
+    padding-bottom: 71px;
     box-sizing: border-box;
     flex-direction: column;
     justify-content: flex-end;
@@ -100,6 +100,7 @@ header nav ul li:last-of-type a {
     font-weight: 400;
     color: #FFFFFF;
     margin-bottom: 18px;
+    margin-top: 0;
 }
 
 .main_banner .container p {
