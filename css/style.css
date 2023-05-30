@@ -302,6 +302,37 @@ header nav ul li:last-of-type a {
 
 /*- - - - - - - - - - - -*/
 
+.past_client{
+    background-color: black;
+    padding: 120px 120px 100px;
+}
+.past_client .container{
+    max-width: 1200px;
+}
+
+.past_client  h2{
+    font: 40px/42px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.past_client h4{
+    font: 24px/30px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.past_client .logo_client{
+    align-items: center;
+}
+
+/*- - - - - - - - - - - -*/
+
 .portfolio3 {
     background-image: url("../images/image3.jpg");
     background-size: cover;
