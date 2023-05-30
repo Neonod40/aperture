@@ -62,13 +62,13 @@ header nav ul li:last-of-type a {
     padding: 11px 20px;
 }
 
-    /*- - - - - - - - - - - - - - - - */
+/*- - - - - - - - - - - - - - - - */
 
 .main_banner {
     height: calc(100vh - 82px);
-    background-image: url("../images/image.jpg");
+    background-image: url("../images/image_ban.jpg");
     background-size: cover;
-    align-items:center;
+    align-items: center;
     padding-bottom: 71px;
     box-sizing: border-box;
     flex-direction: column;
@@ -110,13 +110,14 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
-.widget_right_bottom{
+.widget_right_bottom {
     position: absolute;
     right: 40px;
     bottom: 46px;
     display: flex;
 }
-.widget_right_bottom li{
+
+.widget_right_bottom li {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -125,7 +126,8 @@ header nav ul li:last-of-type a {
     color: #FFFFFF;
     margin-left: 16px;
 }
-.widget_right_bottom li:before{
+
+.widget_right_bottom li:before {
     content: "";
     display: inline-block;
     background-image: url("../images/clock.svg");
@@ -133,20 +135,121 @@ header nav ul li:last-of-type a {
     height: 16px;
     margin-right: 6px;
     position: relative;
-    bottom: -3px;
+    bottom: -4px;
 }
-.widget_right_bottom li:nth-child(2):before{
+
+.widget_right_bottom li:nth-child(2):before {
     background-image: url("../images/focus.svg");
 }
-.widget_right_bottom li:nth-child(3):before{
+
+.widget_right_bottom li:nth-child(3):before {
     background-image: url("../images/iso.svg");
     width: 32px;
 }
-.widget_right_bottom li:last-of-type:before{
+
+.widget_right_bottom li:last-of-type:before {
     background-image: url("../images/plase.svg");
     width: 10px;
 }
- /*- - - - - - - - - - - - - - - */
+
+.what_we_do {
+    background-color: #000000;
+    padding: 113px 0 84px;
+}
+
+.what_we_do .container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.what_we_do h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.what_we_do h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.what_we_do .d_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.what_we_do article {
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.what_we_do article img {
+    display: block;
+    width: 100%;
+}
+
+.what_we_do article .description {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+
+.what_we_do article .description h5 {
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.what_we_do article .description p {
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+    margin-bottom: 18px;
+}
+
+.what_we_do .read_more {
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    font: 15px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding-right: 10px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.what_we_do .read_more:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/*- - - - - - - - - - - - - - - */
 
 .portfolio1 {
     background-image: url("../images/image1.jpg");
@@ -158,6 +261,7 @@ header nav ul li:last-of-type a {
     padding-right: 40px;
     align-items: flex-end;
     flex-direction: column;
+    position: relative;
 }
 
 .portfolio1 .container {
@@ -187,6 +291,8 @@ header nav ul li:last-of-type a {
     margin-right: 16px;
 }
 
+/*- - - - - - - - - - - -*/
+
 .portfolio2 {
     background-image: url("../images/image2.jpg");
     background-size: cover;
@@ -195,11 +301,14 @@ header nav ul li:last-of-type a {
     justify-content: flex-end;
     padding-right: 60px;
     align-items: center;
+    position: relative;
 }
 
 .portfolio2 .container {
     max-width: 298px;
 }
+
+/*- - - - - - - - - - - -*/
 
 .portfolio3 {
     background-image: url("../images/image3.jpg");
@@ -209,6 +318,7 @@ header nav ul li:last-of-type a {
     justify-content: flex-end;
     padding-right: 60px;
     align-items: center;
+    position: relative;
 }
 
 .portfolio3 .container {
