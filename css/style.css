@@ -118,11 +118,9 @@ header nav ul li:last-of-type a {
 }
 
 .widget_right_bottom li {
-    font-family: 'Poppins';
+    font: 12px/12px'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
     color: #FFFFFF;
     margin-left: 16px;
 }
@@ -163,21 +161,17 @@ header nav ul li:last-of-type a {
 }
 
 .what_we_do h2 {
-    font-family: 'Poppins';
+    font: 40px/42px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 42px;
     text-align: center;
     color: #FFFFFF;
 }
 
 .what_we_do h4 {
-    font-family: 'Poppins';
+    font: 23px/30px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
-    line-height: 30px;
     text-align: center;
     color: #C0C0C0;
 }
@@ -282,11 +276,9 @@ header nav ul li:last-of-type a {
 }
 
 .portfolio1 .main_item1 p {
-    font-family: 'Poppins';
+    font: 12px/12px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
     color: #FFFFFF;
     margin-right: 16px;
 }
