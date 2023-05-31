@@ -256,7 +256,6 @@ header nav ul li:last-of-type a {
     padding-right: 40px;
     align-items: flex-end;
     flex-direction: column;
-    min-height: 400px;
     position: relative;
 }
 
@@ -295,7 +294,6 @@ header nav ul li:last-of-type a {
     justify-content: flex-end;
     padding-right: 60px;
     align-items: center;
-    min-height: 400px;
     position: relative;
 }
 
@@ -344,7 +342,6 @@ header nav ul li:last-of-type a {
     justify-content: flex-end;
     padding-right: 60px;
     align-items: center;
-    min-height: 400px;
     position: relative;
 }
 
