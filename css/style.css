@@ -251,7 +251,7 @@ header nav ul li:last-of-type a {
     background-size: cover;
     min-height: 600px;
     padding-bottom: 41px;
-    padding-right: 60px;
+    padding-right: 40px;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
@@ -260,27 +260,6 @@ header nav ul li:last-of-type a {
 
 .portfolio1 .container {
     max-width: 298px;
-    margin-right: 15px;
-}
-
-.portfolio1 .main_item1 {
-    width: 100vw;
-    display: flex;
-    justify-content: right;
-    box-sizing: border-box;
-    margin-right: 40px;
-}
-
-.portfolio1 .main_item1 img {
-    margin-right: 6px;
-}
-
-.portfolio1 .main_item1 p {
-    font: 12px/12px 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin-right: 16px;
 }
 
 /*- - - - - - - - - - - -*/
@@ -290,7 +269,7 @@ header nav ul li:last-of-type a {
     background-size: cover;
     min-height: 600px;
     padding-bottom: 41px;
-    padding-right: 60px;
+    padding-right: 40px;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
@@ -341,7 +320,7 @@ header nav ul li:last-of-type a {
     background-size: cover;
     min-height: 600px;
     padding-bottom: 41px;
-    padding-right: 60px;
+    padding-right: 40px;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
