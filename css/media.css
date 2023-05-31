@@ -143,4 +143,11 @@
     .portfolio3{
         padding-right: 10px;
     }
+    .widget_right_bottom{
+        right: 20px;
+    }
+    .widget_right_bottom li{
+        font: 10px/10px 'Poppins';
+    }
+
 }
