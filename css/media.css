@@ -1,3 +1,146 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1151px) {
+    .what_we_do .d_flex{
+        justify-content: center;
+    }
+    .what_we_do article {
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 862px) {
+    header nav ul li:last-of-type a{
+        padding: 5px 10px;
+    }
+    .what_we_do .d_flex{
+        justify-content: center;
+    }
+    .what_we_do article {
+        max-width: 400px;
+    }
+    .past_client{
+        padding: 50px;
+    }
+}
+@media only screen and (max-width: 842px){
+    header nav ul li{
+        margin-left: 12px;
+    }
+}
 
+@media only screen and (max-width: 799px){
+    .what_we_do {
+        padding: 50px 0 30px;
+    }
+}
+
+@media only screen and (max-width: 742px){
+    header nav ul li a{
+        font: 10px/15px 'Poppins';
+    }
+    header nav ul li:last-of-type a{
+        font: 10px/15px 'Poppins';
+    }
+    .past_client{
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 656px){
+    .past_client .logo_client{
+        flex-direction: column;
+    }
+    .past_client .logo_client a {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 623px){
+    header nav ul li a{
+        font: 10px/15px 'Poppins';
+    }
+    header nav ul li:last-of-type a{
+        font: 7px/12px 'Poppins';
+    }
+}
+@media only screen and (max-width: 593px){
+    header .container{
+        padding-left: 22px;
+        padding-right: 10px;
+    }
+    .need_help{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .need_help h2{
+        font: 30px/32px 'Poppins';
+    }
+    .need_help h3{
+        font: 14px/20px 'Poppins';
+    }
+    .need_help .get_help{
+        font: 12px/16px 'Poppins';
+    }
+    .need_help .get_help:before{
+        width: 20px;
+        height: 20px;
+    }
+    header nav ul li:first-of-type {
+        margin-right: 0;
+    }
+    .main_banner .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main_banner .container h3{
+        font: 12px/18px 'Poppins';
+    }
+    .main_banner .container h1{
+        font: 50px/55px 'Poppins';
+    }
+    .main_banner .container p{
+        font: 12px/18px 'Poppins';
+    }
+}
+@media only screen and (max-width: 549px){
+    header nav ul{
+        display: block;
+    }
+    header .container{
+        padding-right: 20px;
+    }
+    header nav ul li:last-of-type a {
+        font: 12px/16px 'Poppins';
+        padding: 3px 10px;
+    }
+    header nav ul li {
+        margin-bottom: 6px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .what_we_do article {
+        max-width: 370px;
+    }
+    .what_we_do h2{
+        font: 35px/37px 'Poppins';
+    }
+    .what_we_do h4 {
+        font: 18px/25px 'Poppins';
+    }
+}
+@media only screen and (max-width: 380px){
+    .what_we_do article {
+        max-width: 350px;
+    }
+    .what_we_do {
+        padding: 10px 0 30px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .portfolio1{
+        padding-right: 10px;
+    }
+    .portfolio2{
+        padding-right: 10px;
+    }
+    .portfolio3{
+        padding-right: 10px;
+    }
 }
