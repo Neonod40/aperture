@@ -526,7 +526,6 @@ footer .container {
 }
 
 footer .end_1 {
-    display: flex;
     box-sizing: border-box;
     padding-bottom: 36px;
     justify-content: space-between;
@@ -540,16 +539,10 @@ footer .end_1 .end_11 a img {
 }
 
 footer .end_1 .end_11 p {
-    font-family: 'Poppins';
+    font: 13px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
     color: #C0C0C0;
-}
-
-footer .end_1 .end_12 {
-
 }
 
 footer .end_1 .end_12 .end_121 {
@@ -576,7 +569,8 @@ footer .end_1 .end_12 .end_121 a {
     text-decoration: none;
     margin-bottom: 10px;
 }
-footer .end_1 .end_12 .end_121:last-of-type a{
+
+footer .end_1 .end_12 .end_121:last-of-type a {
     margin-bottom: 0;
 }
 
@@ -603,7 +597,8 @@ footer .end_1 .end_12 .end_122 a {
     text-decoration: none;
     margin-bottom: 10px;
 }
-footer .end_1 .end_12 .end_122:last-of-type a{
+
+footer .end_1 .end_12 .end_122:last-of-type a {
     margin-bottom: 0;
 }
 
@@ -642,6 +637,7 @@ footer .end_2 .end_22 {
     border-radius: 12px;
     width: calc(30vw);
 }
+
 footer .end_2 .end_22:before {
     content: "";
     display: inline-block;
@@ -651,6 +647,7 @@ footer .end_2 .end_22:before {
     border-radius: 11px;
     margin: 12px;
 }
+
 footer .end_2 .end_22:after {
     content: "";
     display: inline-block;
@@ -660,19 +657,23 @@ footer .end_2 .end_22:after {
     border-radius: 11px;
     margin: 12px;
 }
-footer .end_3{
+
+footer .end_3 {
     padding-top: 56px;
     justify-content: space-between;
 }
-footer .end_3 p{
+
+footer .end_3 p {
     font: 14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
     color: #C0C0C0;
 }
-footer .end_3 ul{
+
+footer .end_3 ul {
     display: flex;
 }
-footer .end_3 ul li{
+
+footer .end_3 ul li {
     margin-left: 20px;
 }
