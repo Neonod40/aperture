@@ -313,33 +313,39 @@ header nav ul li:last-of-type a {
     align-items: center;
     margin-bottom: 20px;
 }
+
 .past_client .logo_client a {
     max-width: 128px;
     display: inline-block;
 }
-.past_client .owl-item{
+
+.past_client .owl-item {
     text-align: center;
 }
-.past_client .owl-stage{
+
+.past_client .owl-stage {
     display: flex;
     align-items: center;
 }
-.past_client .owl-nav .owl-prev{
-    background-color: green; !important;
+/*<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i>*/
+.past_client .owl-nav .owl-prev {
+    background-color: green !important;
     width: 20px;
     height: 20px;
     position: absolute;
     left: -20px;
     top: 30px;
 }
-.past_client .owl-nav .owl-next{
-    background-color: green; !important;
+
+.past_client .owl-nav .owl-next {
+    background-color: green !important;
     width: 20px;
     height: 20px;
     position: absolute;
-    left: -20px;
+    right: -20px;
     top: 30px;
 }
+
 /*- - - - - - - - - - - -*/
 
 .portfolio3 {
