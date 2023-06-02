@@ -21,7 +21,18 @@
     .what_we_do article {
         max-width: 400px;
     }
+    footer .end_1 {
+        display: block;
+        box-sizing: border-box;
+        padding-bottom: 16px;
+        justify-content: center;
+    }
+    footer .end_1 .end_11 {
+        margin-bottom: 20px;
+    }
+
 }
+
 @media only screen and (max-width: 842px){
     header nav ul li{
         margin-left: 12px;
@@ -35,6 +46,19 @@
     .past_client{
         padding: 30px;
     }
+    footer .end_2{
+        display: block;
+    }
+    footer .end_2 .end_21 p{
+        margin-bottom: 20px;
+    }
+
+    footer .end_2 .end_22{
+        width: calc(55vw);
+    }
+    footer .end_2 .end_22:before{
+        width: calc(55vw - 120px);
+    }
 }
 
 @media only screen and (max-width: 742px){
@@ -44,8 +68,24 @@
     header nav ul li:last-of-type a{
         font: 10px/15px 'Poppins';
     }
+    .tools_use .tools_text{
+        padding: 60px 30px;
+    }
+    .tools_use .tools_text article {
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .tools_use .tools_photo{
+        min-height: 340px;
+    }
     .past_client{
-        padding: 15px;
+        padding: 21px;
+    }
+    footer .end_3{
+        display: block;
+    }
+    footer .end_3 p{
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 656px){
@@ -54,6 +94,12 @@
     }
     .past_client .logo_client a {
         margin-bottom: 10px;
+    }
+    .tools_use .tools_photo .widget_right_bottom{
+        display: none;
+    }
+    footer {
+        padding: 50px 65px;
     }
 }
 @media only screen and (max-width: 623px){
@@ -102,6 +148,18 @@
     .main_banner .container p{
         font: 12px/18px 'Poppins';
     }
+    .tools_use .container{
+        display: block;
+    }
+    .tools_use .tools_text{
+        width: calc(100vw);
+    }
+    .tools_use .tools_photo{
+        width: calc(100vw);
+    }
+    .tools_use .tools_photo .widget_right_bottom{
+        display: flex;
+    }
 }
 @media only screen and (max-width: 549px){
     header nav ul{
@@ -116,6 +174,9 @@
     }
     header nav ul li {
         margin-bottom: 6px;
+    }
+    .tools_use .tools_text article{
+        padding-top: 5px;
     }
 }
 @media only screen and (max-width: 470px){
@@ -136,7 +197,12 @@
     .what_we_do h4 {
         font: 18px/25px 'Poppins';
     }
+    .need_help{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
+
 @media only screen and (max-width: 380px){
     .what_we_do article {
         max-width: 350px;
@@ -144,9 +210,6 @@
     .what_we_do {
         padding: 10px 0 30px;
     }
-}
-
-@media only screen and (max-width: 380px){
     .portfolio1{
         padding-right: 10px;
     }

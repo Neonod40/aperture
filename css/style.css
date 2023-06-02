@@ -526,6 +526,7 @@ footer .container {
 }
 
 footer .end_1 {
+    display: flex;
     box-sizing: border-box;
     padding-bottom: 36px;
     justify-content: space-between;
