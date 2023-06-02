@@ -264,6 +264,71 @@ header nav ul li:last-of-type a {
 
 /*- - - - - - - - - - - -*/
 
+.tools_use .container{
+    margin: 0;
+    padding: 0;
+}
+
+.tools_use .tools_text{
+    background-color: black;
+    width: calc(50vw);
+    border: none;
+}
+.tools_use .tools_text h5{
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.tools_use .tools_text h2{
+    font: 28px/32px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.tools_use .tools_text p{
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.tools_use .check_out{
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    font: 16px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding-right: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+.tools_use .check_out:before{
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.tools_use .tools_photo{
+    background-image: url("../images/our_tools.jpg");
+    background-size: cover;
+    min-height: 540px;
+    line-height: 0;
+    width: calc(50vw);
+    position: relative;
+}
+
+
+/*- - - - - - - - - - - -*/
+
 .portfolio2 {
     background-image: url("../images/image2.jpg");
     background-size: cover;
@@ -285,10 +350,7 @@ header nav ul li:last-of-type a {
 .past_client {
     background-color: black;
     padding: 120px 120px 100px;
-}
 
-.past_client .container {
-    max-width: 1200px;
 }
 
 .past_client h2 {
@@ -329,7 +391,8 @@ header nav ul li:last-of-type a {
 }
 /*<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i>*/
 .past_client .owl-nav .owl-prev {
-    background-color: green !important;
+    background-image: url("../images/left1.svg")!important;
+    /*background-color: green !important;*/
     width: 20px;
     height: 20px;
     position: absolute;
@@ -338,7 +401,8 @@ header nav ul li:last-of-type a {
 }
 
 .past_client .owl-nav .owl-next {
-    background-color: green !important;
+    background-image: url("../images/right1.svg") !important;
+    /*background-color: green !important;*/
     width: 20px;
     height: 20px;
     position: absolute;
