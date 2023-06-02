@@ -273,6 +273,12 @@ header nav ul li:last-of-type a {
     background-color: black;
     width: calc(50vw);
     border: none;
+    padding: 113px 60px;
+    box-sizing: border-box;
+}
+.tools_use .tools_text article{
+    padding-top: 60px;
+    padding-left: 40px;
 }
 .tools_use .tools_text h5{
     font: 14px/20px 'Poppins';
@@ -281,18 +287,22 @@ header nav ul li:last-of-type a {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
+    padding-bottom: 6px;
 }
 .tools_use .tools_text h2{
     font: 28px/32px 'Poppins';
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
+    padding-bottom: 14px;
 }
 .tools_use .tools_text p{
     font: 14px/20px 'Poppins';
+    max-width: 514px;
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
+    padding-bottom: 20px;
 }
 .tools_use .check_out{
     background: #FFFFFF;
