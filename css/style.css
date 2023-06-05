@@ -525,6 +525,12 @@ footer .container {
     align-items: center;
 }
 
+ooter #accordion {
+    max-width: 1168px;
+    margin: auto;
+    align-items: center;
+}
+
 footer .end_1 {
     box-sizing: border-box;
     padding-bottom: 36px;
@@ -604,6 +610,7 @@ footer .end_1 .end_12 .end_122:last-of-type a {
 
 footer .end_2 {
     display: flex;
+    margin: auto;
     border-top: solid 2px #FFFFFF;
     border-bottom: solid 2px #FFFFFF;
     padding: 36px 0;
@@ -632,30 +639,33 @@ footer .end_2 .end_21 p {
 }
 
 footer .end_2 .end_22 {
-    background-color: #F9FAFB;
+    width: 100%;
+    max-width: 458px;
+}
+
+footer .end_2 .end_22 form {
+    background: #F9FAFB;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
-    width: calc(30vw);
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 6px;
+    width: 100%;
 }
 
-footer .end_2 .end_22:before {
-    content: "";
+footer .end_2 .end_22 form input {
+    width: 75%;
     display: inline-block;
-    width: calc(30vw - 120px);
-    height: 30px;
-    background-color: white;
+    border: none;
+    background-color: transparent;
+}
+
+footer .end_2 .end_22 form button {
+    border: none;
+    background: #000000;
     border-radius: 11px;
-    margin: 12px;
-}
-
-footer .end_2 .end_22:after {
-    content: "";
-    display: inline-block;
+    height: 30px;
     width: 63px;
-    height: 30px;
-    background-color: black;
-    border-radius: 11px;
-    margin: 12px;
 }
 
 footer .end_3 {
@@ -670,10 +680,15 @@ footer .end_3 p {
     color: #C0C0C0;
 }
 
-footer .end_3 ul {
+footer .end_3 {
     display: flex;
 }
 
-footer .end_3 ul li {
+footer .end_3 {
     margin-left: 20px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content{
+    background-color: transparent;
+    border: none;
 }
