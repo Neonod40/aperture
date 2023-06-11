@@ -519,17 +519,12 @@ footer {
     padding: 100px 136px;
 }
 
-footer .container {
+footer #tabs {
     max-width: 1168px;
     margin: auto;
-    align-items: center;
+    /*align-items: center;*/
 }
 
-ooter #accordion {
-    max-width: 1168px;
-    margin: auto;
-    align-items: center;
-}
 
 footer .end_1 {
     box-sizing: border-box;
@@ -611,8 +606,8 @@ footer .end_1 .end_12 .end_122:last-of-type a {
 footer .end_2 {
     display: flex;
     margin: auto;
-    border-top: solid 2px #FFFFFF;
-    border-bottom: solid 2px #FFFFFF;
+/*    border-top: solid 2px #FFFFFF;
+    border-bottom: solid 2px #FFFFFF;*/
     padding: 36px 0;
     justify-content: space-between;
 }
@@ -683,8 +678,28 @@ footer .end_3 {
 footer .end_3 {
     margin-left: 20px;
 }
-
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content{
-    background-color: transparent;
+footer .end_32 a{
+    margin-left: 20px;
+}
+footer .ui-widget-content {
     border: none;
+    background: transparent;
+    color: transparent;
+}
+footer .ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+}
+footer .ui-widget {
+    font-family: 'Poppins';
+}
+footer .ui-widget-header {
+    border: none;
+    background: transparent;
+    color: transparent;
+    font-weight: normal;
+}
+footer .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: none;
+    background: transparent;
+    color: transparent;
 }
