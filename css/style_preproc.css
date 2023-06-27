@@ -1,0 +1,1303 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+header {
+  padding: 24px 0;
+  background-color: #000000;
+}
+header .container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 32px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 593px) {
+  header .container {
+    padding-left: 22px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 549px) {
+  header .container {
+    padding-right: 20px;
+  }
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 549px) {
+  header nav ul {
+    display: block;
+  }
+}
+header nav ul li {
+  margin-left: 32px;
+}
+@media screen and (max-width: 842px) {
+  header nav ul li {
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 549px) {
+  header nav ul li {
+    margin-bottom: 6px;
+  }
+}
+header nav ul li:first-of-type {
+  margin-right: 24px;
+}
+@media screen and (max-width: 593px) {
+  header nav ul li:first-of-type {
+    margin-right: 0;
+  }
+}
+header nav ul li:first-of-type a {
+  font-size: 13px;
+}
+header nav ul li a {
+  font: 15px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  text-decoration: none;
+}
+@media screen and (max-width: 742px) {
+  header nav ul li a {
+    font: 10px/15px "Poppins";
+  }
+}
+header nav ul li:last-of-type a {
+  font: 16px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #181818;
+  background: #FFF;
+  border-radius: 14px;
+  padding: 11px 20px;
+}
+@media screen and (max-width: 862px) {
+  header nav ul li:last-of-type a {
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 742px) {
+  header nav ul li:last-of-type a {
+    font: 10px/15px "Poppins";
+  }
+}
+@media screen and (max-width: 623px) {
+  header nav ul li:last-of-type a {
+    font: 7px/12px "Poppins";
+  }
+}
+@media screen and (max-width: 549px) {
+  header nav ul li:last-of-type a {
+    font: 12px/16px "Poppins";
+    padding: 3px 10px;
+  }
+}
+
+/*- - - - - - - - - - - - - - - - */
+.main_banner {
+  height: calc(100vh - 82px);
+  background-image: url("../images/image_ban.jpg");
+  background-size: cover;
+  align-items: center;
+  padding-bottom: 71px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 400px;
+  position: relative;
+}
+.main_banner .container {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 4px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 593px) {
+  .main_banner .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.main_banner .container h3 {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+@media screen and (max-width: 593px) {
+  .main_banner .container h3 {
+    font: 12px/18px "Poppins";
+  }
+}
+.main_banner .container h1 {
+  font: 54px/59px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+@media screen and (max-width: 593px) {
+  .main_banner .container h1 {
+    font: 50px/55px "Poppins";
+  }
+}
+.main_banner .container p {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+@media screen and (max-width: 593px) {
+  .main_banner .container p {
+    font: 12px/18px "Poppins";
+  }
+}
+
+/*- - - - - - - - - - - - - - - - */
+.widget_right_bottom {
+  position: absolute;
+  right: 40px;
+  bottom: 46px;
+  display: flex;
+}
+@media screen and (max-width: 380px) {
+  .widget_right_bottom {
+    right: 20px;
+  }
+}
+.widget_right_bottom li {
+  font: 12px/12px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  margin-left: 16px;
+}
+@media screen and (max-width: 380px) {
+  .widget_right_bottom li {
+    font: 10px/10px "Poppins";
+  }
+}
+.widget_right_bottom li:before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/clock.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  position: relative;
+  bottom: -4px;
+}
+.widget_right_bottom li:nth-child(2):before {
+  background-image: url("../images/focus.svg");
+}
+.widget_right_bottom li:nth-child(3):before {
+  background-image: url("../images/iso.svg");
+  width: 32px;
+}
+.widget_right_bottom li:last-of-type:before {
+  background-image: url("../images/plase.svg");
+  width: 10px;
+}
+
+/*- - - - - - - - - - - - - - - - */
+.what_we_do {
+  background-color: #000000;
+  padding: 113px 0 84px;
+}
+@media screen and (max-width: 799px) {
+  .what_we_do {
+    padding: 50px 0 30px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .what_we_do {
+    padding: 10px 0 30px;
+  }
+}
+.what_we_do .container {
+  max-width: 1168px;
+  margin: auto;
+}
+.what_we_do h2 {
+  font: 40px/42px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #FFF;
+}
+@media screen and (max-width: 400px) {
+  .what_we_do h2 {
+    font: 35px/37px "Poppins";
+  }
+}
+.what_we_do h4 {
+  font: 23px/30px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 400px) {
+  .what_we_do h4 {
+    font: 18px/25px "Poppins";
+  }
+}
+.what_we_do .d_flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1151px) {
+  .what_we_do .d_flex {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 862px) {
+  .what_we_do .d_flex {
+    justify-content: center;
+  }
+}
+.what_we_do article {
+  max-width: 576px;
+  margin-bottom: 16px;
+  position: relative;
+}
+@media screen and (max-width: 1151px) {
+  .what_we_do article {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .what_we_do article {
+    max-width: 370px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .what_we_do article {
+    max-width: 350px;
+  }
+}
+.what_we_do article img {
+  display: block;
+  width: 100%;
+}
+.what_we_do article .description {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+}
+.what_we_do article .description h5 {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+.what_we_do article .description p {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #C0C0C0;
+  margin-bottom: 18px;
+}
+.what_we_do .read_more {
+  background: #FFF;
+  border-radius: 14px;
+  display: inline-flex;
+  font: 15px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #000000;
+  padding-right: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+.what_we_do .read_more:before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+/*- - - - - - - - - - - - - - - */
+.portfolio1 {
+  background-image: url("../images/image1.jpg");
+  background-size: cover;
+  min-height: 600px;
+  padding-bottom: 41px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+}
+@media screen and (max-width: 380px) {
+  .portfolio1 {
+    padding-right: 10px;
+  }
+}
+.portfolio1 .container {
+  max-width: 298px;
+}
+
+/*- - - - - - - - - - - -*/
+.tools_use .container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+@media screen and (max-width: 593px) {
+  .tools_use .container {
+    display: block;
+  }
+}
+.tools_use .container .tools_text {
+  background-color: #000000;
+  width: 50vw;
+  border: none;
+  padding: 113px 60px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 742px) {
+  .tools_use .container .tools_text {
+    padding: 60px 30px;
+  }
+}
+@media screen and (max-width: 593px) {
+  .tools_use .container .tools_text {
+    width: 100vw;
+  }
+}
+.tools_use .container .tools_text article {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+@media screen and (max-width: 742px) {
+  .tools_use .container .tools_text article {
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .tools_use .container .tools_text article {
+    padding-top: 5px;
+  }
+}
+.tools_use .container .tools_text h5 {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  padding-bottom: 6px;
+}
+.tools_use .container .tools_text h2 {
+  font: 28px/32px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  padding-bottom: 14px;
+}
+.tools_use .container .tools_text p {
+  font: 14px/20px "Poppins";
+  max-width: 514px;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  padding-bottom: 20px;
+}
+.tools_use .container .check_out {
+  background: #FFF;
+  border-radius: 14px;
+  display: inline-flex;
+  font: 16px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #181818;
+  padding-right: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+.tools_use .container .check_out:before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: 5px;
+}
+.tools_use .container .tools_photo {
+  background-image: url("../images/our_tools.jpg");
+  background-size: cover;
+  min-height: 540px;
+  line-height: 0;
+  width: 50vw;
+  position: relative;
+}
+@media screen and (max-width: 742px) {
+  .tools_use .container .tools_photo {
+    min-height: 340px;
+  }
+}
+@media screen and (max-width: 593px) {
+  .tools_use .container .tools_photo {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 656px) {
+  .tools_use .container .tools_photo .widget_right_bottom {
+    display: none;
+  }
+}
+@media screen and (max-width: 593px) {
+  .tools_use .container .tools_photo .widget_right_bottom {
+    display: flex;
+  }
+}
+
+/*- - - - - - - - - - - -*/
+.portfolio2 {
+  background-image: url("../images/image2.jpg");
+  background-size: cover;
+  min-height: 600px;
+  padding-bottom: 41px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+}
+@media screen and (max-width: 380px) {
+  .portfolio2 {
+    padding-right: 10px;
+  }
+}
+.portfolio2 .container {
+  max-width: 298px;
+}
+
+/*- - - - - - - - - - - -*/
+.past_client {
+  background-color: #000000;
+  padding: 120px 120px 100px;
+}
+@media screen and (max-width: 960px) {
+  .past_client {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 799px) {
+  .past_client {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 742px) {
+  .past_client {
+    padding: 21px;
+  }
+}
+.past_client h2 {
+  font: 40px/42px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+.past_client h4 {
+  font: 24px/30px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 42px;
+}
+.past_client .logo_client {
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 656px) {
+  .past_client .logo_client {
+    flex-direction: column;
+  }
+}
+.past_client .logo_client a {
+  max-width: 128px;
+  display: inline-block;
+}
+@media screen and (max-width: 656px) {
+  .past_client .logo_client a {
+    margin-bottom: 10px;
+  }
+}
+.past_client .owl-item {
+  text-align: center;
+}
+.past_client .owl-stage {
+  display: flex;
+  align-items: center;
+}
+.past_client .owl-nav .owl-prev {
+  background-image: url("../images/left1.svg") !important;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -20px;
+  top: 30px;
+}
+.past_client .owl-nav .owl-next {
+  background-image: url("../images/right1.svg") !important;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -20px;
+  top: 30px;
+}
+
+/*- - - - - - - - - - - -*/
+.portfolio3 {
+  background-image: url("../images/image3.jpg");
+  background-size: cover;
+  min-height: 600px;
+  padding-bottom: 41px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+}
+@media screen and (max-width: 380px) {
+  .portfolio3 {
+    padding-right: 10px;
+  }
+}
+.portfolio3 .container {
+  max-width: 298px;
+}
+
+.portfolio_1 {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.portfolio_2 {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+
+/*- - - - - - - - - - - -*/
+.need_help {
+  background-color: #000000;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 593px) {
+  .need_help {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .need_help {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.need_help .container {
+  text-align: center;
+}
+.need_help h2 {
+  display: inline-flex;
+  font: 40px/42px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  margin-bottom: 15px;
+  max-width: 571px;
+}
+@media screen and (max-width: 593px) {
+  .need_help h2 {
+    font: 30px/32px "Poppins";
+  }
+}
+@media screen and (max-width: 470px) {
+  .need_help h2 {
+    font: 26px/28px "Poppins";
+  }
+}
+.need_help h3 {
+  font: 24px/30px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #C0C0C0;
+  margin-bottom: 22px;
+}
+@media screen and (max-width: 593px) {
+  .need_help h3 {
+    font: 22px/28px "Poppins";
+  }
+}
+@media screen and (max-width: 470px) {
+  .need_help h3 {
+    font: 18px/24px "Poppins";
+  }
+}
+.need_help .get_help {
+  background: #FFF;
+  border-radius: 14px;
+  display: inline-flex;
+  font: 16px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #181818;
+  padding-right: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+@media screen and (max-width: 593px) {
+  .need_help .get_help {
+    font: 12px/16px "Poppins";
+  }
+}
+.need_help .get_help:before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: 5px;
+}
+@media screen and (max-width: 593px) {
+  .need_help .get_help:before {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/*- - - - - - - - - - - -*/
+footer {
+  background-color: #000000;
+  padding: 100px 136px;
+}
+@media screen and (max-width: 656px) {
+  footer {
+    padding: 50px 65px;
+  }
+}
+footer #tabs {
+  max-width: 1168px;
+  margin: auto;
+}
+footer .end_1 {
+  box-sizing: border-box;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 862px) {
+  footer .end_1 {
+    display: block;
+    box-sizing: border-box;
+    padding-bottom: 16px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 862px) {
+  footer .end_1 .end_11 {
+    margin-bottom: 20px;
+  }
+}
+footer .end_1 .end_11 a img {
+  margin-bottom: 20px;
+}
+footer .end_1 .end_11 p {
+  font: 13px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+footer .end_1 .end_12 {
+  display: flex;
+}
+footer .end_1 .end_12 .end_121 {
+  width: 220px;
+  margin-right: 16px;
+}
+footer .end_1 .end_12 .end_121 h5 {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  margin-bottom: 10px;
+}
+footer .end_1 .end_12 .end_121 a {
+  display: block;
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+footer .end_1 .end_12 .end_121:last-of-type a {
+  margin-bottom: 0;
+}
+footer .end_1 .end_12 .end_122 {
+  width: 220px;
+}
+footer .end_1 .end_12 .end_122 h5 {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  margin-bottom: 10px;
+}
+footer .end_1 .end_12 .end_122 a {
+  display: block;
+  font: 13px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFF;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+footer .end_1 .end_12 .end_122:last-of-type a {
+  margin-bottom: 0;
+}
+footer .end_2 {
+  display: flex;
+  margin: auto;
+  padding: 36px 0;
+  justify-content: space-between;
+}
+@media screen and (max-width: 799px) {
+  footer .end_2 {
+    display: block;
+  }
+}
+footer .end_2 .end_21 h5 {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+footer .end_2 .end_21 p {
+  font: 13px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+@media screen and (max-width: 799px) {
+  footer .end_2 .end_21 p {
+    margin-bottom: 20px;
+  }
+}
+footer .end_2 .end_22 {
+  width: 100%;
+  max-width: 458px;
+}
+@media screen and (max-width: 799px) {
+  footer .end_2 .end_22 {
+    width: 55vw;
+  }
+}
+@media screen and (max-width: 799px) {
+  footer .end_2 .end_22:before {
+    width: calc(55vw - 120px);
+  }
+}
+footer .end_2 .end_22 form {
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 6px;
+  width: 100%;
+}
+footer .end_2 .end_22 form input {
+  width: 75%;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+}
+footer .end_2 .end_22 form button {
+  border: none;
+  background: #181818;
+  border-radius: 11px;
+  height: 30px;
+  width: 63px;
+}
+footer .end_3 {
+  padding-top: 56px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 742px) {
+  footer .end_3 {
+    display: block;
+  }
+}
+footer .end_3 p {
+  font: 14px/20px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #C0C0C0;
+}
+@media screen and (max-width: 742px) {
+  footer .end_3 p {
+    margin-bottom: 20px;
+  }
+}
+footer .end_3 .end_32 a {
+  margin-left: 20px;
+}
+
+footer .ui-widget-content {
+  border: none;
+  background: transparent;
+  color: transparent;
+}
+
+footer .ui-widget.ui-widget-content {
+  border: 1px solid #c5c5c5;
+}
+
+footer .ui-widget {
+  font-family: "Poppins";
+}
+
+footer .ui-widget-header {
+  border: none;
+  background: transparent;
+  color: transparent;
+  font-weight: normal;
+}
+
+footer .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  border: none;
+  background: transparent;
+  color: transparent;
+}
+
+/*# sourceMappingURL=style_preproc.css.map */
